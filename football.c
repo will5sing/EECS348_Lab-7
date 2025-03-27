@@ -34,8 +34,8 @@ int count_combination(int score)  {
                 for(int fg = 0; fg * FG <=score; fg++) {
                     for(int st = 0; st * ST <=score; st++) {  //We now know theough all of these, the coombinations
                         int total = (td2pt * TD_2) + (td_fg * TD_FG1) + (td* TD) + (fg *FG) + (st * ST);
-                        if(total == score)  {  
-                            count++
+                        if(total == score)  {  //Now we just add up all the perfect scores and get the # of combinations
+                            count++;
                         }
                     }
                 }
