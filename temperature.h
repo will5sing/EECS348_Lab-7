@@ -1,7 +1,7 @@
-#ifndef __REPORT_H__
-#define __REPORT_H__
+#ifndef temp_h
+#define temp_h
 
-/* Add any function signatures you need here but do not modify the existing ones */
+/* Add any function  signatures you need here but do not modify the existing ones */
 
 /**
  * @brief Convert temperature in Celsius to Fahrenheit
@@ -35,4 +35,4 @@ float celsius_to_kelvin(float celsius);
  */
 float kelvin_to_celsius(float celsius);
 
-#endif /* __REPORT_H__ */
+#endif /* temp_h */
