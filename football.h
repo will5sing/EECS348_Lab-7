@@ -1,5 +1,5 @@
-#ifndef __LAB_H__
-#define __LAB_H__
+#ifndef football_h
+#define football_h
 
 /* Do not modify the function signatures here */
 
@@ -19,4 +19,4 @@ int count_combinations(int points);
  */
 void print_combinations(int points);
 
-#endif /* __LAB_H__ */
+#endif /* football_h */
